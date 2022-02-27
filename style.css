@@ -1,0 +1,79 @@
+/* -- CORES DO SISTEMA--*/
+.principal {
+  background-color: #24221f;
+  height: 100vh;
+  /* -- END FORM --*/
+}
+.principal h1 {
+  font-size: 40px;
+  margin-top: 50px;
+  color: #F6CA69;
+  text-align: center;
+}
+@media (max-width: 420px) {
+  .principal h1 {
+    font-size: 25px;
+  }
+}
+.principal p {
+  margin-top: 5px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.principal ul {
+  margin: auto;
+  text-align: center;
+}
+@media (max-width: 420px) {
+  .principal ul {
+    text-align: start;
+  }
+}
+.principal ul li {
+  color: #ffffff;
+  list-style: none;
+  opacity: 0.5;
+}
+.principal .form {
+  margin-top: 60px;
+}
+@media (max-width: 420px) {
+  .principal .form {
+    margin-top: 30px;
+  }
+}
+.principal .form input {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+  background-color: #24221f;
+  color: #F6CA69;
+  border: 1px solid #F6CA69;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.principal .form .btn-calc {
+  text-transform: uppercase;
+  margin-top: 30px;
+  cursor: pointer;
+  background-color: #24221f;
+  border: 1px solid #ffffff;
+  height: 40px;
+  transition: 0.5s;
+  font-weight: bold;
+}
+.principal .form .btn-calc:hover {
+  background-color: #F6CA69;
+  color: #24221f;
+  border: none;
+}
+.principal .result {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* -- END SECTION --*//*# sourceMappingURL=style.css.map */

@@ -1,0 +1,104 @@
+/* -- CORES DO SISTEMA--*/
+
+$background: #24221f;
+$formBackground: #000000;
+$white: #ffffff;
+$yellowBurn:  #F6CA69;
+
+.principal 
+{
+    background-color: $background;
+    height: 100vh;
+
+    h1 
+    {
+        font-size: 40px;
+        margin-top: 50px;
+        color: $yellowBurn;
+        text-align: center;
+
+         // QUANDO FOR MENOR QUE 420PX A IMAGEM IRA SUMIR
+         @media (max-width: 420px)
+         {
+             font-size: 25px;
+         }
+    }
+
+    p 
+    {
+        margin-top: 5px;
+        text-align: center;
+        color: $white;
+        opacity: 0.5;
+    }
+
+    ul 
+    {
+       margin: auto;
+       text-align: center;
+
+       // QUANDO FOR MENOR QUE 420PX A IMAGEM IRA SUMIR
+        @media (max-width: 420px)
+        {
+            text-align: start;
+        }
+       
+        li 
+        {
+            color: $white;
+            list-style: none;
+            opacity: 0.5;
+        }
+    }
+
+    .form 
+    {
+        margin-top: 60px;
+
+        // QUANDO FOR MENOR QUE 420PX A IMAGEM IRA SUMIR
+        @media (max-width: 420px)
+        {
+            margin-top: 30px;
+        }
+        input 
+        {
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 40%;
+            background-color: $background;
+            color: $yellowBurn;
+            border: 1px solid $yellowBurn;
+            border-top: none;
+           
+            border-left: none;
+            border-right: none;
+        }
+
+        .btn-calc
+        {
+            text-transform: uppercase;
+            margin-top: 30px;
+            cursor: pointer;
+            background-color: $background;
+            border: 1px solid $white;
+            height: 40px;
+            transition: 0.5s;
+            font-weight: bold;
+
+            &:hover 
+            {
+                background-color: $yellowBurn;
+                color: $background;
+                border: none;
+            }
+        }
+    } /* -- END FORM --*/
+
+    .result 
+    {
+        font-size: 14px;
+        text-align: center;
+    }
+} /* -- END SECTION --*/
